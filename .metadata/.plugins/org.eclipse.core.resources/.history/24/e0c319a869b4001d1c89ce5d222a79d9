@@ -1,0 +1,16 @@
+package Matrix;
+
+public class SpiralMatrixAntiClock {
+	
+	public static void main(String[] args) {
+		Matrix mt = new Matrix();
+		int x[][]=mt.readMat();
+		
+		System.out.println("Enter the values");
+		mt.printSpiral1(x);
+		System.out.println("After the Spiral the matrix");
+		mt.disMat(x);
+		
+	}
+
+}

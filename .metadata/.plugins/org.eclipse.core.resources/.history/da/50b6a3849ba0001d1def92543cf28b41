@@ -1,0 +1,10 @@
+package collect;
+
+public class LinkTest {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+
+	}
+
+}

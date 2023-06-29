@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename type &apos;Sumdigit2&apos; to &apos;ReverseDigit&apos;&#x0D;&#x0A;- Original project: &apos;JAVA 12.30&apos;&#x0D;&#x0A;- Original element: &apos;Sumdigit2&apos;&#x0D;&#x0A;- Renamed element: &apos;ReverseDigit&apos;&#x0D;&#x0A;- Update references to refactored element&#x0D;&#x0A;- Update textual occurrences in comments and strings" description="Rename type &apos;Sumdigit2&apos;" flags="589830" id="org.eclipse.jdt.ui.rename.type" input="/src&lt;{Sumdigit2.java[Sumdigit2" matchStrategy="1" name="ReverseDigit" qualified="false" references="true" similarDeclarations="false" stamp="1674019385692" textual="false" version="1.0"/>
+</session>

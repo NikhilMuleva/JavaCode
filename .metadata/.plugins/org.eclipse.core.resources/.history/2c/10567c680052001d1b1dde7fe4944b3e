@@ -1,0 +1,12 @@
+package loop;
+
+public class Seraching {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		String s = "nikhil";
+		System.out.println(s.indexOf("h"));
+
+	}
+
+}

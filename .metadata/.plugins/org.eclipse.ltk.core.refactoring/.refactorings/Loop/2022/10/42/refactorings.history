@@ -1,0 +1,4 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<session version="1.0">
+<refactoring comment="Rename resource &apos;Loop/src/StarPattern11oposite.java&apos; to &apos;StarPattern12.java&apos;" description="Rename resource &apos;StarPattern11oposite.java&apos;" flags="7" id="org.eclipse.ltk.core.refactoring.rename.resource" input="src/StarPattern11oposite.java" name="StarPattern12.java" stamp="1665378010461" updateReferences="true"/>
+</session>

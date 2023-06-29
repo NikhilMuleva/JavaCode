@@ -1,0 +1,61 @@
+package Matrix;
+
+import java.util.Scanner;
+
+public class SpriralMatrix {
+	static void printSpiral(int[][] x)
+	{
+		int n=x.length-1;
+		for(int i=0,j=n;i<j;i++,j--)
+		{
+			for(int k=i;k<j;k++)
+			{
+				System.out.println(x[i][k]+" ");
+			}
+			for(int k=i;k<j;k++)
+			{
+				System.out.println(x[k][j]+" ");
+			}
+			for(int k=j;k>i;k--)
+			{
+				System.out.println(x[j][k]+" ");
+			}
+			for(int k=j;k>i;k--)
+			{
+				System.out.println(x[k][i]+" ");
+			}
+		}
+		if(x.length%2==1) {
+			System.out.println(x[x.length/2][x.length/2]);
+		}
+	}
+
+	public static void main(String[] args) {
+		Scanner sc = new Scanner(System.in);
+		System.out.println("Enter the Order of matrix: ");
+		int row=sc.nextInt();
+		int col=sc.nextInt();
+		int[][] mat=new int[row][col];
+		System.out.println("enter"+row*col+" interges values row wise");
+		for(int i=0;i<mat.length;i++)
+		{
+			for(int j=0;j<mat[i].length;j++)
+			{
+				mat[i][j]=sc.nextInt();
+			}
+		}
+		for(int i=0;i<mat.length;i++)
+		{
+			for(int j=0;i<mat[i].length;j++)
+			{
+				System.out.println(mat[i][j]+" ");
+
+			}
+		}
+		
+		
+		 int[][] mat=printSpiral(x);
+		System.out.println(mat);
+	}
+	
+}

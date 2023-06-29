@@ -1,0 +1,29 @@
+package collect;
+import java.util.*;
+
+public class Test {
+
+	public static void main(String[] args) {
+		// TODO Auto-generated method stub
+		ArrayList a1 = new ArrayList();
+		a1.add("Rahul");
+		a1.add("raina");
+		a1.add("Dhoni");
+		a1.add("rohit");
+		a1.add(1,"sachin");
+		System.out.println(a1);
+		System.out.println(a1.remove("raina"));
+
+		System.out.println(a1);
+		System.out.println(a1.contains("Rahul"));
+		System.out.println(a1.size());
+		System.out.println(a1.isEmpty());
+	    a1.clear();
+	    System.out.println(a1);
+
+
+		
+
+	}
+
+}

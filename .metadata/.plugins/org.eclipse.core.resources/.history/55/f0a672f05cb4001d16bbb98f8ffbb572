@@ -1,0 +1,17 @@
+package Matrix;
+
+
+public class SpriralMatrix {
+	
+	public static void main(String[] args) {
+		Matrix mt = new Matrix();
+		int x[][]=mt.readMat();
+		System.out.print("user Enterd the Matrix");
+		mt.printSpiral(x);
+		System.out.print("After the Spiral the matrix");
+		mt.disMat(x);
+		
+		
+	}
+	
+}
